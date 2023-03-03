@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(53, 53, 53);
+}
+h1 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  margin-top: 80px;
+}
+#container {
+  background-color: bisque;
+  border: 2px solid black;
+  margin-top: 7%;
+}
+#input {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#hours,
+#min,
+#sec {
+  font-size: 20px;
+}
+#p1,
+#p2 {
+  font-size: 20px;
+}
+#buttons {
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 50px;
+  padding-bottom: 80px;
+}
+.time {
+  font-size: 15px;
+}
+#start,
+#reset {
+  font-size: 20px;
+  width: 100px;
+  height: 60px;
+}
